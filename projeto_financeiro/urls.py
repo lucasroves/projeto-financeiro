@@ -22,5 +22,5 @@ urlpatterns = [
     path('resumo',views.resumo, name='resumo'),
     path('despesas/',views.despesas, name='despesas'),
     path('vendas/',views.vendas, name='vendas'),
-   
+   path('despesasXreceitas',views.despesasxreceitas, name='despesasXreceitas')
 ]
