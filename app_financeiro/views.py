@@ -12,3 +12,6 @@ def despesas(request):
 
 def vendas(request):
     return render(request, 'vendas.html')
+
+def despesasXreceitas(request):
+    return render(request,'despesasXreceitas.html')
